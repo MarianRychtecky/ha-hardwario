@@ -1,5 +1,5 @@
 name: "Hardwario BCG"
-version: 5
+version: 6
 slug: "hardwario_bcg"
 description: "Addon for Hardwario USB radio dongle!"
 arch:
@@ -17,10 +17,12 @@ options:
   mqtt_username: "username"
   mqtt_password: "password"
   usb_port: "/dev/ttyUSB0" 
+  debug: false
 schema:
   mqtt_host: str
   mqtt_host_port: int
   mqtt_username: str
   mqtt_password: str
   usb_port: str
+  debug: bool
 
